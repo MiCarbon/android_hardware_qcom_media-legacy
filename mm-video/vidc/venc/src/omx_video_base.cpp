@@ -45,8 +45,8 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/prctl.h>
-#ifdef _ANDROID_ICS_
 #include <media/hardware/HardwareAPI.h>
+#ifdef _ANDROID_ICS_
 #include <gralloc_priv.h>
 #endif
 #ifndef _ANDROID_
